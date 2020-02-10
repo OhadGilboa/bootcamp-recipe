@@ -5,8 +5,17 @@ let bringRecipe = function () {
     })
 }
 
-// let imageClick = function () {
-//     $(`.img`).on(`click`, () => {
-//         console.log($(this.siblings(`.ul`)))
-//     })
+
+let logFirst = function () {
+    $(`.img`).click(function () {
+        console.log($(this).siblings(`.ol`));
+    });
+}
+
+// onclickImg()
+// let onclickImg = () => {
+//     console.log($(this));
 // }
+
+
+// .siblings(`.ul`).closest(`.li`).val()

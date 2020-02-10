@@ -1,0 +1,23 @@
+#recipe {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    margin-top: 5px;
+} 
+
+.recipes {
+    background-color: rgba(153, 131, 206, 0.842);
+    text-align: center;
+    border: solid rgba(7, 173, 202, 0.651) 2px;
+    border-radius: 10px;
+    color: white;
+}
+
+.img {
+    width: 250px;
+    background-color: rgba(145, 7, 7, 0.582);
+}
+
+.ol {
+    text-align: left;
+}
