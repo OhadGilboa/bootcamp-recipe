@@ -11,8 +11,3 @@ class Recipe {
 }
 
 let recipe = new Recipe()
-
-
-        // let ingredients = data.ingredients
-        // const newHTML2 = template({ingredients})
-        // $(`#recipe`).append(newHTML2)

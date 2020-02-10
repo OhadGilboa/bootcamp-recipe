@@ -6,16 +6,9 @@ let bringRecipe = function () {
 }
 
 
-let logFirst = function () {
-    $(`.img`).click(function () {
-        console.log($(this).siblings(`.ol`));
-    });
+
+//Either One didn't work for me, couldn't find out why...
+let logFirstingredient = function () {
+    console.log($(`recipe`).closest(`.img`).siblings(`.ol`).closest(`.li`).val());
+    console.log($(this).siblings(`.ol`).closest(`.li`).val()); 
 }
-
-// onclickImg()
-// let onclickImg = () => {
-//     console.log($(this));
-// }
-
-
-// .siblings(`.ul`).closest(`.li`).val()
